@@ -1,0 +1,28 @@
+[
+  {
+    "arguments": [
+      "/nix/store/90h6k8ylkgn81k10190v5c9ldyjpzgl9-gcc-wrapper-12.3.0/bin/gcc",
+      "-DDEBUG",
+      "-DPLATFORM_DESKTOP",
+      "-DGRAPHICS_API_OPENGL_33",
+      "-D_GNU_SOURCE",
+      "-I../game",
+      "-I../game/src",
+      "-I../game/include",
+      "-I../raylib-master/src",
+      "-I../raylib-master/src/external",
+      "-I../raylib-master/src/external/glfw/include",
+      "-m64",
+      "-g",
+      "-std=c99",
+      "-Werror=all",
+      "-c",
+      "-o",
+      "obj/x64/Debug/calculator-c/main.o",
+      "../game/src/main.c"
+    ],
+    "directory": "/home/tiago/calculator-c/_build",
+    "file": "/home/tiago/calculator-c/game/src/main.c",
+    "output": "/home/tiago/calculator-c/_build/obj/x64/Debug/calculator-c/main.o"
+  }
+]
